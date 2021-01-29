@@ -60,4 +60,4 @@ app.get("/product", function (req, res) {
   res.send(products);
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
